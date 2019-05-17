@@ -1,7 +1,7 @@
 
 < R >
 
+
 REPL - 
-
-
+The repl module provides a Read-Eval-Print-Loop (REPL) implementation that is available both as a standalone program or includible in other applications.
 <https://nodejs.org/api/repl.html>

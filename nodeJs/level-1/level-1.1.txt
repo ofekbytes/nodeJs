@@ -1,22 +1,39 @@
 .
 .
-css - Cascading Style Sheets.
+NodeJs - 
 .
 .
-- level 1: css
+- level 1: NodeJs
 
 
 
 .
 .
-- level 1: css
+- level 1: NodeJs
 .
 
--- Cascading refers to the way CSS applies one style on top of another.
---- Style Sheets control the look and feel of web documents.
+-- nodeJs first program
+--- create a file name called "level-1.1.js",
+--- edit this file
+--- enter this line of code:
+    console.log("nodejs - hello world");
+
+--- save this file.
+--- running/executing the program open terminal window and enter this command
+    $ nodejs ./nodeJs.01.01.js
+
+--- output:
+    nodejs ./nodeJs.01.01.js
 
 
---- example:
+--- example: console.log example
+
+    console.log("nodejs - hello world");
+
 
 --- example: nodeJs Example
     <nodeJs-1.1.js>
+
+-!- running the program outside the browser in the local computer.
+
+

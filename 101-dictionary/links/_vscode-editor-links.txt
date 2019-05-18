@@ -1,0 +1,68 @@
+
+
+--[ vsCode --> visual studio Code ]--
+
+
+[visual studio Code - Editor installation]
+
+https://code.visualstudio.com/
+
+
+[extensions <ctrl+shift+x> ]
+
+-!- installed press "@installed"  <enter>
+.
+.
+01) Live Server - <ritwickdey.liveserver> ..MIT License
+02) Numbered Bookmarks - <Alessandro Fragnani> ..MIT License..
+03) Angular 8 Snippets - TypeScript, Html, Angular Material, ngRx, RxJS & Flex Layout - <Mikael Morlund> ..MIT License..
+04) Angular v7 Snippets - <John Papa> ..MIT License..
+05) Paste JSON as Code - <quicktype> ..Apache License..
+06) vscode-spotify - <shyykoserhiy>  ..MIT License.. 
+07) Debugger for Chrome - <Microsoft>  ..MIT License..
+08) GitLens — Git supercharged - <Eric Amodio> ..MIT License..
+09) VS Live Share - <Microsoft>  ..MICROSOFT PRE-RELEASE SOFTWARE LICENSE TERMS..
+10) Material Icon Theme - <Philipp Kief> ..MIT License
+
+
+2018
+*) Settings Sync - <Shan Khan>  ..MIT License..
+
+
+
+.
+.
+[keyboard hot-keys]
+.
+
+ctrl+ shift+p ==> quick command interface
+type "theme" ==> "preferences: colorTheme" ==> enter "theme screen"
+
+ctrl+<k> ==> key bind search (????????)
+
+- ctrl+<p> ==> search files
+-- serach inside "serach files" ==> @ + "serach method/command/function" 
+
+ctrl+<`> ==> show terminal/console window.
+ctrl+space-bar ==> intellisense - code keyword auto complite.
+f12 - go to definition
+atl+f12 -  peek definition
+
+-!- (Snippets - automatic command complite)
+
+- Paste JSON as Code
+-- create a new file "test.ts"
+-- ctrl+<p> + enter ">" ==> then enter ==> ">Paste JSON as Code"
+--- example: 
+serach api --> example: twitter api: --> https://developer.twitter.com/ 
+
+test.1.0.txt  //before change//
+test.1.ts     //after change//
+
+
+-- zen mode - pure developing - ctrl+<k>+<z> (????????)
+
+
+- more links about the subject -
+-- https://www.youtube.com/watch?v=u21W_tfPVrY
+-- 

@@ -15,3 +15,9 @@ Java Script -
 --- rest
 --- spread operator
 --- object destructuring
+
+-- Java Script is 
+--- weakly Typed Language 
+--- Object Oriented Language
+--- Versatile Language
+

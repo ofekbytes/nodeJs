@@ -4,6 +4,7 @@ NodeJs -
 .
 .
 - level 1: NodeJs
+- level 2: repl -vs- using/execute files
 
 
 
@@ -32,8 +33,67 @@ NodeJs -
 
 
 --- example: nodeJs Example
-    <nodeJs-1.1.js>
+    <nodeJs.01.01.js>
 
 -!- running the program outside the browser in the local computer.
 
+
+--- example: write text to file (client side)
+
+    // import files system ('fs' = file system) functionality
+    const fs = require('fs');
+
+    //file-name in local path, and, text to write to file.
+    fs.writeFileSync('nodeJs.01.02.txt',"nodejs - hello world"); 
+
+--- example: write text to file
+    <nodeJs.01.02.js> - script file
+
+.
+.
+- level 1.2: repl -vs- using/execute files
+.
+
+- repl (Read Eval Print Loop) - 
+
+  Read  -->  read user input
+  Eval  -->  Evaluate User Input
+  Print -->  Print Output (Result)
+  Loop  -->  Wait for new Input
+
+
+-- using nodeJs repl environment as playground for code,
+   the code will be erased when we exit node Js repl.
+
+-- enter the repl environment by entering node -or- nodejs -and- then press enter
+
+$ node <enter>
+-or-
+$ nodejs <enter>
+
+> 2 + 2 
+4
+
+>  console.log("nodejs - hello world");
+nodejs - hello world
+
+> const fs = require('fs')  <enter>
+
+> fs.writeFileSync('fileCreateInReplEnvironment.txt',"nodejs - hello world"); <enter>
+
+> .exit
+
+
+- using/execute files
+
+-- using/execute files - using the execute file metod
+
+--- write an application/code in a file, deploy it, share the code with other
+
+.
+.
+- level 1.3: xyz
+.
+
+- 
 

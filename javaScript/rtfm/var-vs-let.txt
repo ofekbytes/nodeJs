@@ -1,0 +1,14 @@
+
+var vs let
+
+The difference is scoping. 
+var is scoped to the nearest function block and 
+let is scoped to the nearest enclosing block, which can be smaller than a function block. 
+Both are global if outside any block.
+variables declared with let are not accessible before they are declared in their enclosing block.
+
+//var vs let - rtfm//
+https://codeburst.io/difference-between-let-and-var-in-javascript-537410b2d707
+
+https://www.geeksforgeeks.org/difference-between-var-and-let-in-javascript/
+

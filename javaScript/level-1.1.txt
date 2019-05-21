@@ -42,23 +42,100 @@ console.log(fName)
 
 --- example: local/global scope
 
-//global scope
-var fName = 'Jron';
-var age = 45;
-var haveBusTicket = true;
+    //global scope
+    var fName = 'Jron';
+    var age = 45;
+    var haveBusTicket = true;
 
-// function call with paraments
-console.log(fnPrintUserInformation(fName, age, haveBusTicket));
+    // function call with argument
+    console.log(fnPrintUserInformation(fName, age, haveBusTicket));
 
-// function with argument> and return value
-function fnPrintUserInformation(name, age, busTicket) {
-    //local scope
-    return "Name is " + name + ", Age is " + age + ", busTickets" + busTicket;
-}
+    // function with argument and return value
+    function fnPrintUserInformation(name, age, busTicket) {
+        //local scope
+        return "Name is " + name + ", Age is " + age + ", busTickets" + busTicket;
+    }
 
 -- var is a keyword that create a variable (outdate syntax)
 -- let is a keyword that create a variable (scope of the "let" is defferent fron "var" variable)
 -- const is a keyword that create a variable that assigned once at declaration time 
    and never changed (can't be assigned again)
 
-   
+.
+.
+level 3: function
+.
+
+-- function with argument
+
+--- example: function with argument
+
+    function fnPrintUserInformation(name, age, busTicket) 
+    {
+        return "Name is " + name + ", Age is " + age + ", busTickets" + busTicket;
+    }
+
+--- example: function with argument
+    <javaScript-01.04.01.function-anonymous.js>
+
+
+
+-- function - anonymous function
+
+--- example: anonymous function set from variable const "summarizeUser"
+
+    const fnPrintUserInformation = function (name, age, busTicket) 
+    {
+        return "Name is " + name + ", Age is " + age + ", busTickets" + busTicket;
+    }
+
+
+--- example: anonymous function set from variable const "summarizeUser"
+   <javaScript-01.04.02.function-anonymous.js>
+
+
+
+-- function - 
+   anonymous function with 
+   arrow sign "=>"
+   "this" sign
+
+--- example:  anonymous function with Arrow Functions  "=>"
+
+    // function with "this" keyboard -and- Arrow Function handling
+    const fnPrintUserInformation = (name, age, busTicket) =>
+    {
+        console.log("Name is " + this.fName);
+        return "Name is " + name + ", Age is " + age + ", busTickets" + busTicket;
+    }
+
+
+--- example:  anonymous function with Arrow Functions "=>"
+    <javaScript-01.04.03.function-anonymous.js>
+
+
+
+-- short function
+
+--- example: Arrow Functions
+
+--- example: Arrow Functions
+    <javaScript-01.04.04.function-short.js>
+
+
+
+---rtfm---
+- Arrow Functions
+anonymous function
+java script object
+
+// "this" keyword + Arrow Functions //
+https://academind.com/learn/javascript/this-keyword-function-references/
+----------------------
+
+
+
+
+
+
+

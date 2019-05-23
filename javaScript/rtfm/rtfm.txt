@@ -1,12 +1,18 @@
 
+-- variable --
+- var
+- let
 - var vs let
+- const
+- object
+--------------
 
 - function with argumen
 - function - anonymous function set from variable const "summarizeUser"
 - function with "this" keyboard -and- Arrow Functions handling
 - function with this keyboard with Arrow Functions handling
 
-- Arrow Functions function
+- Arrow Function 
 - anonymous function
 - "this" keyword
 - "=>" -- Arrow Functions keyword

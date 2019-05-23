@@ -28,14 +28,16 @@ level 2: basic variable
 
 --- example: variable
 
-var fName='jron';
-console.log(fName)
+    var fName='jron';
+    console.log(fName)
 
 
 -- scope - JavaScript has two scopes – global and local. 
+
 --- global scope - 
     Any variable declared outside of a function belongs to the global scope, 
     and is therefore accessible from anywhere in your code. 
+
 --- local scope - 
     Each function has its own scope, and any variable declared within that function 
     is only accessible from that function and any nested functions.
@@ -111,7 +113,7 @@ level 3: function
 
 
 --- example:  anonymous function with Arrow Functions "=>"
-    <javaScript-01.04.03.function-anonymous.js>
+    <javaScript-01.04.03.function-Arrow.js>
 
 
 
@@ -120,7 +122,7 @@ level 3: function
 --- example: Arrow Functions
 
 --- example: Arrow Functions
-    <javaScript-01.04.04.function-short.js>
+    <javaScript-01.04.04.functions-Arrow-short.js>
 
 
 

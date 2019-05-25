@@ -21,6 +21,10 @@ https://developer.mozilla.org/en-US/docs/Learn/CSS
 https://developer.mozilla.org/en-US/docs/Learn/JavaScript
 
 
+- javascript version - es5, es6
+  https://www.w3schools.com/js/js_versions.asp
+
+
 videos:
 ------
 
@@ -31,8 +35,6 @@ https://academind.com/learn/javascript/reference-vs-primitive-values/
 
 ///this-keyword-function-references/
 https://academind.com/learn/javascript/this-keyword-function-references/
-
-
 
 
 //nice to know

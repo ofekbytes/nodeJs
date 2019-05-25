@@ -1,34 +1,37 @@
 
 
 // example #1.
-// short function writing into const variable/
+// short function writing into const variable
+// add(2,3) return 5
 const add = (a,b) => {
     return a + b;
 };
 
 
 // example #2.
-// shorter function then example #1
+// shorter function then example #1: without the "return" keyword
+// add(2,3) return 5
 const adding = (a,b) => a + b;
 
 
 // example #3.
-// shorter function (+1)
+// shorter function (+1):
 const addpo = (a) => a + 1;
 
 
 // example #4 - 
 // one argument do not need Parenthesis/bracket (example $)
-// shorter function (+1)
+// shorter function (+1), without curly brackets
 const addpo2 = a => a + 1;
 
 // example #5 - 
-// shorter function without argument/s
+// shorter function without any argument/s (return a calc function data)
+// 21 + 39 , return value of  60 
 const addpo3 = () => 21 + 39;
 
 
 
-
+//return a message
 let userMessage = (message) => {
     return message;
 };

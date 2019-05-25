@@ -4,7 +4,18 @@
 - let
 - var vs let
 - const
-- object
+- java script class
+- java script constructor function
+-!- java script Object Oriented JavaScript Development
+-!- constructor function - normal function which you can call to create a new object and initialize them with property and method.
+-!- java Script Object, and "this" keyword.
+
+
+- javascript object -for- javascript/es5/es6
+
+- javascript version - es5, es6
+
+
 --------------
 
 - function with argumen

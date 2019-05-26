@@ -124,6 +124,35 @@ level 3: function
 --- example: Arrow Functions
     <javaScript-01.04.04.functions-Arrow-short.js>
 
+.
+.
+level 4: objects-properties-methods
+.
+
+- object - 
+
+-- object is ........
+
+--- example:  object - key:value pairs
+
+    //
+    // object - key:value pairs
+    // 
+    const person = {
+        name: 'jron',
+        age: 45,
+    };
+
+    console.log(person);
+
+
+--- example: Arrow Functions
+    <javaScript-01.05.01.objects-properties-methods.js>
+
+
+
+
+
 
 
 ---rtfm---

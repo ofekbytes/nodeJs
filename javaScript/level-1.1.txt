@@ -133,6 +133,7 @@ level 4: objects-properties-methods
 
 -- object is ........
 
+
 --- example:  object - key:value pairs
 
     //
@@ -145,8 +146,72 @@ level 4: objects-properties-methods
 
     console.log(person);
 
+    // output:
+    // { name: 'jron', age: 45 }
 
---- example: Arrow Functions
+
+--- example: object with function (arrow function / anonymous function)
+
+    const personWithFunctionBug1 = {
+        name: 'shalom',
+        age: 22,
+
+        //anonymous function with "arrow" function
+        greet: () => {
+            console.log('hello ' + this.name + ' ,how are you today ? ');
+        }
+    };
+
+    // output:
+    // "hello undefined ,how are you today ? "
+
+-!- "personWithFunctionBug1" object contain:
+    "this" is not refer to the global scope, 
+    "this"  refer to the global node runtime scope.
+    and not to the object "personWithFunctionBug1".
+
+
+--- example: call function within an object
+
+    personWithFunctionBug1.greet();
+
+    // fixing the bug - ("Arrow" Function)
+    // function instead of "arrow" function 
+    const personWithFunctionFixBog = {
+        name: 'shalom',
+        age: 22,
+        greet: function () {
+            console.log('hello ' + this.name + ' ,how are you today ? ');
+        }
+    };
+
+    personWithFunctionFixBog.greet();
+
+    // output: 
+    // hello shalom ,how are you today ?
+
+
+--- example: call function within an object (without "function()" keyword)
+
+    const personWithFunctionMethod = {
+        name: 'shalom',
+        age: 22,
+        greet() {
+            console.log('hello ' + this.name + ' ,without function/method keyword ? ');
+        }
+    };
+
+    personWithFunctionMethod.greet();
+
+    // output:
+    // hello shalom ,without function/method keyword ? 
+
+
+
+
+
+
+--- example: object, properties, variable, methods, function
     <javaScript-01.05.01.objects-properties-methods.js>
 
 

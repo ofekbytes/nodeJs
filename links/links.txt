@@ -25,6 +25,18 @@ https://developer.mozilla.org/en-US/docs/Learn/JavaScript
   https://www.w3schools.com/js/js_versions.asp
 
 
+
+- javascript object
+
+  https://en.wikipedia.org/wiki/JavaScript
+
+  https://www.w3schools.com/js/js_objects.asp
+
+
+  https://en.wikipedia.org/wiki/ECMAScript
+
+------------------------------------------------------------------
+
 videos:
 ------
 

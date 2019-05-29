@@ -263,10 +263,34 @@ level 5: array, array_methods
 
 -- example: variable array method: "map()"
 
+    // array method: "map()"
+    const foods = ['pear', 'apple', 'orange'];
+
+    // example 1: map()
+    // map() will return a new array.
+    console.log("example 1: map() method ::: " + foods.map(foods => {
+        //console.log("return food:: and the food list ");
+        return ' Foods:: ' + foods;
+    }));
+
+
+    // example 2: map()
+    // map() will return a new array.
+    // function with one argument do not need curly brackets and not "return" keyword //
+    console.log("example 2: map() :::" + foods.map(foods => ' Foods:: ' + foods));
+
+    console.log("original array :::  " + foods); // original array
+
+
+    // output: 
+    //
+    // example 1: map() method :::  Foods:: pear, Foods:: apple, Foods:: orange
+    // example 2: map() ::: Foods:: pear, Foods:: apple, Foods:: orange
+    // original array :::  pear,apple,orange
 
 
 
---- example: array 
+--- example: array - all examples.
     <javaScript-01.06.01.array-array_methods.js>
 
 

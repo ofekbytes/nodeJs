@@ -13,9 +13,9 @@ console.log(person);
 
 //array - string, string, numbers, boolean(true/false), object{}, other array
 const arrayTypesInJavaScipt = ['string1', 'string2', 1, true, {
-    name: 'shalom',
-    age: 33
-  },
+  name: 'shalom',
+  age: 33
+},
   ['anthoer array', 33]
 ];
 
@@ -56,19 +56,19 @@ const foods = ['pear', 'apple', 'orange'];
 
 // example 1: map()
 // map() will return a new array.
-console.log(foods.map(foods =>
-  {
-    return ' Foods:: ' + foods; 
-  })); 
+console.log("example 1: map() method ::: " + foods.map(foods => {
+  //console.log("return food:: and the food list ");
+  return ' Foods:: ' + foods;
+}));
 
-  
+
 // example 2: map()
 // map() will return a new array.
 // function with one argument do not need curly brackets not "return" //
-console.log(foods.map(foods =>  ' Foods:: ' + foods ));  
+console.log("example 2: map() :::" + foods.map(foods => ' Foods:: ' + foods));
 
 
-console.log(foods); // original array
+console.log("original array :::  " + foods); // original array
 
 
 

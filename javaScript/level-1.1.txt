@@ -8,6 +8,8 @@ Java Script -
 - level 3: function
 - level 4: objects-properties-methods
 - level 5: array, array_methods
+- level 6: Arrays, Objects & Reference Types
+
 
 
 .
@@ -305,6 +307,12 @@ https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics
 --- example: array - all examples.
     <javaScript-01.06.01.array-array_methods.js>
 
+.
+.
+- level 6: Arrays, Objects & Reference Types
+.
+
+--
 
 
 

@@ -17,6 +17,9 @@
 
 
     <script>
+        //----------------------------------------------------------------------------------------------------------//
+        // NameField - 
+        //
         class NameField {
             constructor(name) {
                 const field = document.createElement('li'); //field item
@@ -26,14 +29,16 @@
             }
         }
 
-        // class for the object
+        //----------------------------------------------------------------------------------------------------------//
+        // NameGenerator -  class for the object
+        //
         class NameGenerator {
             constructor() {
                 //refernece to a "button"
-                const btn = document.querySelector('button');                
+                const btn = document.querySelector('button');
 
                 // [Error] - Uncaught ReferenceError: addName is not defined
-                btn.addEventListener('click',addName); 
+                btn.addEventListener('click', addName);
             }
 
             //function/method in the class (attached to the object)
@@ -43,8 +48,10 @@
             }
         }
 
-        //instance gen to NameGererator()
-        const gen = new NameGenerator(); //object = new instance
+        // onload #1 //
+        // instance gen to NameGererator()
+        const gen = new NameGenerator(); // object = new instance
+
     </script>
 
 </body>
@@ -58,3 +65,4 @@
 <!-- at example1.html:45 -->
 <!-- NameGenerator @ example1.html:34 -->
 <!-- (anonymous) @ example1.html:45 -->
+

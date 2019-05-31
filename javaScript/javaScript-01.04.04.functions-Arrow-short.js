@@ -14,21 +14,21 @@ const add = (a,b) => {
 const adding = (a,b) => a + b;
 
 
-// example #3.
+// example #3. arrow array with one argument
 // shorter function (+1):
 const addpo = (a) => a + 1;
 
 
-// example #4 - 
+// example #4 - arrow array
 // one argument do not need Parenthesis/bracket (example $)
 // shorter function (+1), without curly brackets
 const addpo2 = a => a + 1;
 
-// example #5 - 
-// shorter function without any argument/s (return a calc function data)
-// 21 + 39 , return value of  60 
-const addpo3 = () => 21 + 39;
 
+// example #5 - arrow function without argument -
+// shorter function without any argument/s (return a calc function data)
+// return 21 + 39 , return value of  60 
+const addpo3 = () => 21 + 39;
 
 
 //return a message
@@ -36,6 +36,7 @@ let userMessage = (message) => {
     return message;
 };
 
+let newMsg = userMsg => ".. test .. " + userMsg;
 
 const num1 = 3, num2 = 6;
 
@@ -46,4 +47,5 @@ console.log(num2 + " + " + 1 + " = " + addpo2(num2) ); // 1x argument
 console.log("function return the number " + addpo3() ) ; // no argument
 
 console.log(userMessage("this is nice"));
+console.log(newMsg("this nice arrow function with argument "));
 

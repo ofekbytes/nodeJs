@@ -4,6 +4,10 @@ Java Script -
 .
 .
 - level 1: Java Script information
+- level 2: basic variable
+- level 3: function
+- level 4: objects-properties-methods
+- level 5: array, array_methods
 
 
 .
@@ -23,7 +27,7 @@ Java Script -
 
 .
 .
-level 2: basic variable
+- level 2: basic variable
 .
 
 --- example: variable
@@ -65,7 +69,7 @@ level 2: basic variable
 
 .
 .
-level 3: function
+- level 3: function
 .
 
 -- function with argument
@@ -126,12 +130,22 @@ level 3: function
 
 .
 .
-level 4: objects-properties-methods
+- level 4: objects-properties-methods
 .
 
 - object - 
 
--- object is ........
+-- object - 
+An object is a collection of related data and/or functionality,
+which usually consists of several variables and functions — 
+which are called properties and methods when they are inside objects.
+
+
+// rtfm - object //
+//
+https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics
+//
+//.........................................................................//
 
 
 --- example:  object - key:value pairs
@@ -210,12 +224,10 @@ level 4: objects-properties-methods
 --- example: object, properties, variable, methods, function
     <javaScript-01.05.01.objects-properties-methods.js>
 
-
 .
 .
-level 5: array, array_methods
+- level 5: array, array_methods
 .
-
 
 --- example:
     const arrayTypesInJavaScipt = 

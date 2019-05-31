@@ -36,7 +36,10 @@ let userMessage = (message) => {
     return message;
 };
 
+
+//recive a 
 let newMsg = userMsg => ".. test .. " + userMsg;
+
 
 const num1 = 3, num2 = 6;
 

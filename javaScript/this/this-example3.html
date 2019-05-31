@@ -17,6 +17,9 @@
 
 
     <script>
+        //----------------------------------------------------------------------------------------------------------//
+        // NameField - 
+        //                
         class NameField {
             constructor(name) {
                 const field = document.createElement('li'); //field item
@@ -26,12 +29,14 @@
             }
         }
 
-        // class for the object
+        //----------------------------------------------------------------------------------------------------------//
+        // NameGenerator -  class for the object
+        //        
         class NameGenerator {
             constructor() {
                 //refernece to a "button"
-                const btn = document.querySelector('button');                
-                btn.addEventListener('click', this.addName); 
+                const btn = document.querySelector('button');
+                btn.addEventListener('click', this.addName);
                 // [ok] call a reference of the method "addName", now the event will work.
             }
 
@@ -42,7 +47,10 @@
             }
         }
 
-        //instance gen to NameGererator()
+        //----------------------------------------------------------------------------------------------------------//
+        // onload #1 //
+        // instance gen to NameGererator() 
+        //       
         const gen = new NameGenerator(); //object = new instance
     </script>
 

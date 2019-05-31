@@ -17,27 +17,32 @@
 
 
     <script>
+        //----------------------------------------------------------------------------------------------------------//
+        // NameField - 
+        //                       
         class NameField {
             constructor(name) {
-                const field = document.createElement('li'); 
-                field.textContent = name; 
+                const field = document.createElement('li');
+                field.textContent = name;
                 const nameListHook = document.querySelector('#names');
                 nameListHook.appendChild(field);
             }
         }
 
-        // class for the object
+        //----------------------------------------------------------------------------------------------------------//
+        // NameGenerator -  class for the object
+        //      
         class NameGenerator {
             constructor() {
                 const btn = document.querySelector('button');
-                this.name = ['jron', 'shalom','yifat'];
+                this.name = ['jron', 'shalom', 'yifat'];
                 this.currnetNameIndex = 0;
 
                 console.log(this);
 
                 btn.addEventListener('click', () => {
                     this.addName();
-                });                
+                });
             }
 
 
@@ -47,12 +52,16 @@
 
                 this.currnetNameIndex++;
 
-                if(this.currnetNameIndex >= this.name.length) {
+                if (this.currnetNameIndex >= this.name.length) {
                     this.currnetNameIndex = 0;
                 }
             }
         }
 
+        //----------------------------------------------------------------------------------------------------------//
+        // onload #1 //
+        // instance gen to NameGererator() 
+        //      
         const gen = new NameGenerator(); //object = new instance
     </script>
 

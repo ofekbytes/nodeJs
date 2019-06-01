@@ -64,10 +64,10 @@ Java Script -
         return "Name is " + name + ", Age is " + age + ", busTickets" + busTicket;
     }
 
--- var is a keyword that create a variable (outdate syntax)
--- let is a keyword that create a variable (scope of the "let" is defferent fron "var" variable)
--- const is a keyword that create a variable that assigned once at declaration time 
-   and never changed (can't be assigned again)
+-- var    --> is a keyword that create a variable (outdate syntax)
+-- let    --> is a keyword that create a variable (scope of the "let" is defferent fron "var" variable)
+-- const  --> is a keyword that create a variable that assigned once at declaration time 
+              and never changed (can't be assigned again)
 
 .
 .
@@ -309,12 +309,59 @@ https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics
 
 .
 .
-- level 6: Arrays, Objects & Reference Types
+- level 6: primitive, Arrays, Objects & Reference Types
 .
 
---
+-- object and array are also called reference type 
+
+-- when i store an array in const variable,
+   i can edit the array without violating that constants must not be changed.
+
+-!- push() - add new element to the existing array with a array method.
+
+--- example: add an element to array in constant variable (reference to constant variable)
+
+    const foods = ['pear', 'apple', 'orange'];
+
+    console.log(foods);
+    console.log("before push method ::: "  + foods);
+
+    //push() -  add new element to the existing array with a array method.
+    foods.push('banana');
+    foods.push('lemon','ice');
+
+    console.log(foods);
+    console.log("after push method ::: " + foods);
+
+    // output //
+    // [ 'pear', 'apple', 'orange' ]
+    // before push method ::: pear,apple,orange
+    // [ 'pear', 'apple', 'orange', 'banana', 'lemon', 'ice' ]
+    // after push method ::: pear,apple,orange,banana,lemon,ice
 
 
+-!- reference type only store an address pointer at the place in the memory
+    where that array is store.
+    the address has not change by us when we add a new element.
+    the constant variable (const food) contian a pointer/reference to an address.
+
+    [variable] --> [array-address]
+
+
+
+--- example:  primitive, Arrays, Objects & Reference Types - all examples.
+    <javaScript-01.07.01. Arrays. Objects.Reference-Types.js>
+
+
+.
+.
+- level 7: primitive -vs- Reference Types
+.
+
+
+https://www.youtube.com/watch?v=9ooYYRLdg_g
+
+https://academind.com/learn/javascript/reference-vs-primitive-values/
 
 
 ---rtfm---

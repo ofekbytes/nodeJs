@@ -64,7 +64,7 @@ lastIndexOf()
 map()
 pop()
 prototype
-push()
+push() - //add new element to the existing array
 reduce()
 reduceRight()
 reverse()

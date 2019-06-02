@@ -21,6 +21,23 @@ https://developer.mozilla.org/en-US/docs/Learn/CSS
 https://developer.mozilla.org/en-US/docs/Learn/JavaScript
 
 
+
+// Immutable Update Patterns //
+https://redux.js.org/recipes/structuring-reducers/immutable-update-patterns
+
+// Object​.assign() //
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign
+
+// Spread syntax //
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax
+
+// Array​.prototype​.slice() //
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice
+
+//stack and heap//
+https://medium.com/fhinkel/confused-about-stack-and-heap-2cf3e6adb771
+
+
 - javascript version - es5, es6
   https://www.w3schools.com/js/js_versions.asp
 

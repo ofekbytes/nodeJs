@@ -57,14 +57,31 @@ https://medium.com/fhinkel/confused-about-stack-and-heap-2cf3e6adb771
 videos:
 ------
 
-//javaScript model, loops, form validation
-https://academind.com/learn/javascript/javascript-beginner-s-guide/
+.
+.
+------[<javaScript> - this keyword ,functionreferences]------------------------------
 
-//variable reference-vs-primitive-values/
+/// (youtube) this keyword ,functionreferences
+https://www.youtube.com/watch?time_continue=12&v=Pv9flm-80vM
+
+/// (Web-page) this keyword ,functionreferences
+https://academind.com/learn/javascript/this-keyword-function-references/
+
+.
+.
+------[<javaScript> - variable reference -vs- primitive values/]----------------------------------------------------
+
+/// (youtube) variable reference-vs-primitive-values/
+https://www.youtube.com/watch?time_continue=2&v=9ooYYRLdg_g
+
+/// (web-page) variable reference-vs-primitive-values/
 https://academind.com/learn/javascript/reference-vs-primitive-values/
 
-///this-keyword-function-references/
-https://academind.com/learn/javascript/this-keyword-function-references/
+
+
+
+//javaScript model, loops, form validation
+https://academind.com/learn/javascript/javascript-beginner-s-guide/
 
 
 //nice to know

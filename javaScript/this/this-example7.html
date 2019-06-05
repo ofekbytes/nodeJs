@@ -4,7 +4,7 @@
 
     <meta charset="UTF-8">
 
-    <title> this #4 </title>
+    <title> this #7 </title>
 
 </head>
 
@@ -28,28 +28,23 @@
                 nameListHook.appendChild(field);
             }
         }
-
         //----------------------------------------------------------------------------------------------------------//
         // NameGenerator -  class for the object
         //      
         class NameGenerator {
             constructor() {
                 const btn = document.querySelector('button');
-
-                // this is not a constant -or- variable, this is a variable attaced to this class.
-                // this a property/field
-                this.name = ['jron', 'shalom', 'yifat']; 
+                this.name = ['jron', 'shalom', 'yifat'];
                 this.currnetNameIndex = 0;
-                console.log('constructor NameGenerator() this event, and show the object - this.name ');
-                console.log(this);
-                btn.addEventListener('click', this.addName);
+                //
+                // arrow function (ES6)
+                // anonymous function with arrow function will fix the bug,
+                // "this" will refer to the class/constructor and not to the button in the constructor
+                btn.addEventListener('click', () => {
+                    this.addName();
+                });
             }
-
-
             addName() {
-                console.log("click EventListener will get us the button value (this) not the object value")
-                console.log(this); //this refer to the button.
-
                 const name = new NameField(this.name[this.currnetNameIndex]);
                 this.currnetNameIndex++;
                 if (this.currnetNameIndex >= this.name.length) {
@@ -57,7 +52,6 @@
                 }
             }
         }
-
         //----------------------------------------------------------------------------------------------------------//
         // onload #1 //
         // instance gen to NameGererator() 

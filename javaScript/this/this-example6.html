@@ -4,7 +4,7 @@
 
     <meta charset="UTF-8">
 
-    <title> this #4 </title>
+    <title> this #6 </title>
 
 </head>
 
@@ -28,28 +28,28 @@
                 nameListHook.appendChild(field);
             }
         }
-
         //----------------------------------------------------------------------------------------------------------//
         // NameGenerator -  class for the object
         //      
         class NameGenerator {
             constructor() {
                 const btn = document.querySelector('button');
-
-                // this is not a constant -or- variable, this is a variable attaced to this class.
-                // this a property/field
-                this.name = ['jron', 'shalom', 'yifat']; 
+                this.name = ['jron', 'shalom', 'yifat'];
                 this.currnetNameIndex = 0;
-                console.log('constructor NameGenerator() this event, and show the object - this.name ');
-                console.log(this);
-                btn.addEventListener('click', this.addName);
+                //
+                // anonymous function 
+                btn.addEventListener('click', function() {
+                    //this will refer to the button -and- not to the class.
+                    this.addName();
+                });
+                //
+                //output bug -
+                //Uncaught TypeError: this.addName is not a function at HTMLButtonElement.<anonymous> (this-example6.html:42) (anonymous) @ this-example6.html:42
+
+                //
+                //fixed in "this-example7.html"
             }
-
-
             addName() {
-                console.log("click EventListener will get us the button value (this) not the object value")
-                console.log(this); //this refer to the button.
-
                 const name = new NameField(this.name[this.currnetNameIndex]);
                 this.currnetNameIndex++;
                 if (this.currnetNameIndex >= this.name.length) {
@@ -57,7 +57,6 @@
                 }
             }
         }
-
         //----------------------------------------------------------------------------------------------------------//
         // onload #1 //
         // instance gen to NameGererator() 

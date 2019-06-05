@@ -371,6 +371,8 @@ java script object
 
 // "this" keyword + Arrow Functions //
 https://academind.com/learn/javascript/this-keyword-function-references/
+
+https://www.youtube.com/watch?time_continue=12&v=Pv9flm-80vM
 ----------------------
 
 

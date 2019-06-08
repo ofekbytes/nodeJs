@@ -358,6 +358,20 @@ https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics
 - level 7: primitive -vs- Reference Types
 .
 
+- primitive values/types
+-- string 
+-- numbers
+-- boolean
+-- undefined
+-- null
+-- (es6) - symbol
+
+
+
+- reference values/types
+
+
+
 
 https://www.youtube.com/watch?v=9ooYYRLdg_g
 

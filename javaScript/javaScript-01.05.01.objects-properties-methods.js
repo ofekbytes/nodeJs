@@ -22,7 +22,7 @@ const personWithFunctionBug1 = {
     age: 22,
     //anonymous function with "arrow" function
     greet: () => {
-        console.log('hello ' + this.name + ' ,how are you today ? ');
+        console.log(' 1> hello ' + this.name + ' ,how are you today ? ');
         // -!- 
         // "personWithFunctionBug1" object contain:
         // "this" is not refer to the global scope, 
@@ -47,7 +47,7 @@ const personWithFunctionFixBog = {
     name: 'shalom',
     age: 22,
     greet: function () {
-        console.log('hello ' + this.name + ' ,how are you today ? ');
+        console.log(' 2> hello ' + this.name + ' ,how are you today ? ');
     }
 };
 
@@ -65,7 +65,7 @@ const personWithFunctionMethod = {
     name: 'shalom',
     age: 22,
     greet() {
-        console.log('hello ' + this.name + ' ,without function/method keyword ? ');
+        console.log(' 3> hello ' + this.name + ' ,without function/method keyword ? ');
     }
 };
 

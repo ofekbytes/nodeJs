@@ -350,7 +350,7 @@ https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics
 
 
 --- example:  primitive, Arrays, Objects & Reference Types - all examples.
-    <javaScript-01.07.01. Arrays. Objects.Reference-Types.js>
+    <javaScript-01.07.01.Arrays.Objects.Reference-Types.js>
 
 
 .
@@ -358,20 +358,61 @@ https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics
 - level 7: primitive -vs- Reference Types
 .
 
-- primitive values/types
+-- javaScript is dynamic type language -and not- strong type language
+
+- primitive values/types - 
 -- string 
 -- numbers
 -- boolean
 -- undefined
 -- null
--- (es6) - symbol
+-- symbol - (es6)
+
+-!- primitive value copied by value.
+-!- primitive value stored in a memory - 
+--- "stack" is fast and limited memory.
 
 --- example:
 
+    var name1 = 'name1'
+    console.log("name1 ==> " + name1);
+
+    var name2 = 'name2';
+    console.log("name2 ==> " + name2);
+
+    var name1 = 'new-name';
+    console.log("name2 ==> " + name2);
+    console.log("name1 ==> " + name1);
+
+
+    // output //
+    "name1 ==> name1"
+    "name2 ==> name2"
+    "name2 ==> name2"
+    "name1 ==> new-name"
 
 
 - reference values/types
 
+-- object / array  are store in the "heap"
+--- "heap" is slower then "stack".
+--- "heap" can store more information then "stack".
+--- "heap" is a place in memory where element stored in an randomly address.
+
+
+-- reference value/type create a "stack" and make a pointer to it.
+   (store the pointer/address of the "stack" in the reference value variable)
+
+
+--- example:  primitive -vs- Reference Types.
+    <javaScript-01.08.01.var.js>
+   
+
+
+
+---[rtfm]-----------------------------------------
+- stack
+- heap
 
 
 

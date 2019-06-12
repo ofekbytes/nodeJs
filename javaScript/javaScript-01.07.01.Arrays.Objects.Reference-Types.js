@@ -3,7 +3,7 @@
 // 
 
 //
-// const reference to const
+// const reference to reference type (pointer to heap)
 //
 const foods = ['pear', 'apple', 'orange'];
 

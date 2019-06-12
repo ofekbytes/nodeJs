@@ -352,13 +352,13 @@ https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics
 --- example:  primitive, Arrays, Objects & Reference Types - all examples.
     <javaScript-01.07.01.Arrays.Objects.Reference-Types.js>
 
-
 .
 .
 - level 7: primitive -vs- Reference Types
 .
 
--- javaScript is dynamic type language -and not- strong type language
+- javaScript is dynamic type language -and not- strong type language
+
 
 - primitive values/types - 
 -- string 
@@ -407,6 +407,15 @@ https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics
 --- example:  primitive -vs- Reference Types.
     <javaScript-01.08.01.var.js>
    
+
+
+.
+.
+- level 7: Spread & Rest Operators
+.
+
+- 
+
 
 
 

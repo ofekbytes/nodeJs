@@ -78,6 +78,12 @@ https://www.youtube.com/watch?time_continue=2&v=9ooYYRLdg_g
 https://academind.com/learn/javascript/reference-vs-primitive-values/
 
 
+.
+.
+------[<javaScript> - es6 ]----------------------------------------------------
+
+/// (youtube) es6/es5
+https://www.youtube.com/watch?v=IEf1KAcK6A8
 
 
 

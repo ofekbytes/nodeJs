@@ -414,10 +414,19 @@ https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics
 - level 7: Spread & Rest Operators
 .
 
-- 
+- spread - 
+
+-- immutability - 
+   we never edit exist value but always replace them with copies and changes.
+   we want to implement a pattern where in add a new value to the array,
+   a new food, we don't need to edit the original arry,
+   we create a new array with all the old values and the new values.
+
+--- example:  copy an array with slice method.
+    <javaScript-01.09.01.slice.js>
 
 
-
+   <javaScript-01.09.02.spread-Operators.js>
 
 ---[rtfm]-----------------------------------------
 - stack

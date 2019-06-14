@@ -1,5 +1,5 @@
 //
-// Spread & Rest Operators
+// slice() method
 // 
 
 

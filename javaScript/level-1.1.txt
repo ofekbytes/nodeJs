@@ -407,14 +407,12 @@ https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics
 --- example:  primitive -vs- Reference Types.
     <javaScript-01.08.01.var.js>
    
-
-
 .
 .
 - level 7: Spread & Rest Operators
 .
 
-- spread - 
+- spread Operators - 
 
 -- immutability - 
    we never edit exist value but always replace them with copies and changes.
@@ -425,8 +423,59 @@ https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics
 --- example:  copy an array with slice method.
     <javaScript-01.09.01.slice.js>
 
+-- copy an array using spread operator.
+--- spread operator = '...'
+--- spread operator pull out the old array element and add them one by one
+    to the new array.
+-!- sperad copy arrays.
 
+--- example: 
    <javaScript-01.09.02.spread-Operators.js>
+
+
+- Rest Operators - 
+
+-- rest operators are opposite of spread operator.
+-- rest operator = '...'
+
+-- rest operators get arument and send it to the function parameters
+   (no need to set parameters size )
+
+--- example: send argument to the method, and method return an array.
+
+    const addArgumentToArray = (arg1, arg2, arg3) => {
+    return [arg1, arg2, arg3];
+    }
+
+    console.log('return and print the new array ');
+    console.log(addArgumentToArray(1,2,3));
+
+
+
+--- example: rest operator - send unknown argument and return an array
+
+    // rest operator //
+    const addArgumentToArrayWithRestOperator = (...args) => {
+    return args;
+    }
+
+    console.log('call function with argument')
+    console.log(addArgumentToArrayWithRestOperator(1,2,3,4,5) );
+
+--- example: rest operator - send unknown argument and return an array
+    <javaScript-01.09.03.rest-operators.js>
+.
+.
+- level 7: Destructuring
+.
+
+- 
+
+--- example: destructuring
+    <javaScript-01.10.01.destructuring.js>
+
+
+
 
 ---[rtfm]-----------------------------------------
 - stack

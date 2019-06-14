@@ -10,6 +10,10 @@ https://glitch.com/
 user: gmail-account.
 
 
+// javaScript variable //
+https://developer.mozilla.org/he/docs/Web/JavaScript/Guide/Expressions_and_Operators
+
+
 //mozilla learn//
 
 https://developer.mozilla.org/en-US/docs/Learn

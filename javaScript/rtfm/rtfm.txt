@@ -4,6 +4,8 @@
 - let
 - var vs let
 - const
+- function
+- java-script scope (variable/object/function scope)
 - java script class
 - java script constructor function
 -!- java script Object Oriented JavaScript Development

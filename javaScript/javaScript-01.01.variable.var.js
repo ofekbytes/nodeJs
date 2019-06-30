@@ -10,8 +10,7 @@ console.log('My Name is ' + fName);
 console.log(fnPrintUserInformation(fName, age, haveBusTicket));
 
 // function with argument (local scope) and return value
-function fnPrintUserInformation(name, age, busTicket) 
-{
+function fnPrintUserInformation(name, age, busTicket) {
     //local scope
     return "Name is " + name + ", Age is " + age + ", busTickets" + busTicket;
 }

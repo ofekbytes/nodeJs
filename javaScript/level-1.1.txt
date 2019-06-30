@@ -23,8 +23,8 @@ Java Script -
 --- object destructuring
 
 -- Java Script is 
---- weakly Typed Language 
---- Object Oriented Language
+--- weakly Typed Language - no explicit type assigned to variable.
+--- Object Oriented Language 
 --- Versatile Language
 
 .
@@ -51,9 +51,9 @@ Java Script -
 --- example: local/global scope
 
     //global scope
-    var fName = 'Jron';
-    var age = 45;
-    var haveBusTicket = true;
+    var fName = 'Jron'; //string
+    var age = 45;  //number
+    var haveBusTicket = true; //boolean
 
     // function call with argument
     console.log(fnPrintUserInformation(fName, age, haveBusTicket));

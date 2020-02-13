@@ -3,15 +3,44 @@
 NodeJs - 
 .
 .
-- level 1: NodeJs
-- level 2: repl -vs- using/execute files
+- 01. NodeJs
+- 02. repl -vs- using/execute files
 
 
 
 .
 .
-- level 1: NodeJs
-.
+- 01. NodeJs
+
+- JavaScript 
+- JavaScript is browser dom manipulation language.
+-- JavaScript is used to manipulate the html page that was loaded in your browser.
+--- example: open popup, a modal, effect adding.
+-- JavaScript is building an interactive user interface in the browser.
+
+- NodeJs -
+-- NodeJs is a different version of JavaScript.
+-- NodeJs can be execute in the browser, server, or other machine.
+-- NodeJs is a programming language.
+-- NodeJs use Google JavaScript V8.
+-- NodeJs added feture that note exist in the browse for security reasons
+--- example: working with file system (read,write,delete) . 
+
+-!- NodeJs use vanilla v8 JavaScript inside the browser
+
+
+- NodeJs Jobs :
+-- a file upload.
+-- pagination.
+-- database: sql -or- noSql.
+-- app with dynamic rander html view  on the server.
+-- real time data.
+-- web sockets.
+-- NodeJs api:
+--- restful api.
+--- graphQL api (like rest api).
+--- stripejs api (checkout, payment).
+--- Deployment.
 
 -- nodeJs first program
 --- create a file name called "level-1.1.js",
@@ -21,10 +50,10 @@ NodeJs -
 
 --- save this file.
 --- running/executing the program open terminal window and enter this command
-    $ nodejs ./nodeJs.01.01.js
+    $ nodejs ./njs.01.01.console.js
 
 --- output:
-    nodejs ./nodeJs.01.01.js
+    nodejs ./njs.01.01.console.js
 
 
 --- example: console.log example
@@ -33,7 +62,7 @@ NodeJs -
 
 
 --- example: nodeJs Example
-    <nodeJs.01.01.js>
+    <njs.01.01.console.js>
 
 -!- running the program outside the browser in the local computer.
 
@@ -47,53 +76,82 @@ NodeJs -
     fs.writeFileSync('nodeJs.01.02.txt',"nodejs - hello world"); 
 
 --- example: write text to file
-    <nodeJs.01.02.js> - script file
+    <nodeJs.01.02.write2file> - script file
 
 .
 .
 - level 1.2: repl -vs- using/execute files
-.
 
-- repl (Read Eval Print Loop) - 
-
+- repl (Read Eval Print Loop) - javaScript environment
   Read  -->  read user input
   Eval  -->  Evaluate User Input
   Print -->  Print Output (Result)
   Loop  -->  Wait for new Input
 
-
 -- using nodeJs repl environment as playground for code,
    the code will be erased when we exit node Js repl.
 
 -- enter the repl environment by entering node -or- nodejs -and- then press enter
+    $ node <enter>
+    -or-
+    $ nodejs <enter>
 
-$ node <enter>
--or-
-$ nodejs <enter>
+    > 2 + 2 
+    4
 
-> 2 + 2 
-4
+--- examples: REPEL command example (press 'enter' after each command)
 
->  console.log("nodejs - hello world");
+> console.log("nodejs - hello world"); <enter>
 nodejs - hello world
 
-> const fs = require('fs')  <enter>
+>  console.log("write text to file"); <enter>
+write text to file
 
+> const fs = require('fs')  <enter>
 > fs.writeFileSync('fileCreateInReplEnvironment.txt',"nodejs - hello world"); <enter>
 
-> .exit
+>  console.log("exit REPEL by pressing '.exit' "); <enter>
+exit REPEL by pressing '.exit' 
+
+> .exit <enter>
+
+
+- REPEL commandType: 
+
+.help     for more information.
+.break    Sometimes you get stuck, this gets you out
+.clear    Alias for .break
+.editor   Enter editor mode
+.exit     Exit the repl
+.help     Print this help message
+.load     Load JS from a file into the REPL session
+.save     Save all evaluated commands in this REPL session to a file
+
 
 
 - using/execute files
 
--- using/execute files - using the execute file metod
+-- using/execute files - using the execute file method
+-- write an application/code in a file, deploy it, share the code with other.
 
---- write an application/code in a file, deploy it, share the code with other
 
 .
 .
-- level 1.3: xyz
-.
+- level 1.3: NodeJs do
 
-- 
+- NodeJs Jobs :
+-- a tool for writing utility scripts.
+-- usages inside server side -and- non server side.
+-- create a server and listen to income requests (web/application/desktop/other request).
+-- handle the request (business logic), validate input data, work with  database and files.
+-- return a response data (send back data to the client):
+--- html pages
+--- html pages with dynamic content
+--- data - formatted data json, xml, files.
+
+-!- NodeJs alternatives: python, php, ruby, .net
+
+
+
+
 

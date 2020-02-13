@@ -1,0 +1,3 @@
+file-name: nodeJs.01.02.write2file.output.txt 
+nodejs - hello world 
+new line.

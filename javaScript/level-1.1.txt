@@ -3,19 +3,27 @@
 Java Script - 
 .
 .
-- level 1: Java Script information
-- level 2: basic variable
-- level 3: function
-- level 4: objects-properties-methods
-- level 5: array, array_methods
-- level 6: Arrays, Objects & Reference Types
+- level 01: Java Script information
+- level 02: basic variable
+- level 03: function
+- level 04: objects-properties-methods
+- level 05: array, array_methods
+- level 06: Arrays, Objects & Reference Types
+- level 07: primitive -vs- Reference Types
+- level 08: Spread & Rest Operators
+- level 09: Destructuring
+- level 10: third party library
+
+.
+.
+- level xx: third party library
+
 
 
 
 .
 .
-- level 1: Java Script information
-.
+- level 01: Java Script information
 
 -- Javascript next generation feature
 --- rest
@@ -23,14 +31,33 @@ Java Script -
 --- object destructuring
 
 -- Java Script is 
---- weakly Typed Language - no explicit type assigned to variable.
---- Object Oriented Language 
+--- weakly Typed Language - no explicit type assigned to variable 
+    data type can be change dynamically (number,text, boolean...).
+--- Object Oriented Language - data can be organized in logical objects.
 --- Versatile Language
+--- variable: primitive and reference type.
+
+-- browser:
+--- user event
+--- re-render the DOM(Document Object Model)
+
+
+-- links:
+
+--- Strong and weak typing:::
+    https://en.wikipedia.org/wiki/Strong_and_weak_typing
+
+--- dom::: 
+    https://en.wikipedia.org/wiki/Document_Object_Model
+
+--- JavaScript:::
+    http://developer.mozilla.org/en-US/dcocs/Learn/JavaScript
+
+
 
 .
 .
-- level 2: basic variable
-.
+- level 02: basic variable
 
 --- example: variable
 
@@ -71,8 +98,7 @@ Java Script -
 
 .
 .
-- level 3: function
-.
+- level 03: function
 
 -- function with argument
 
@@ -132,8 +158,7 @@ Java Script -
 
 .
 .
-- level 4: objects-properties-methods
-.
+- level 04: objects-properties-methods
 
 - object - 
 
@@ -228,8 +253,7 @@ https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics
 
 .
 .
-- level 5: array, array_methods
-.
+- level 05: array, array_methods
 
 --- example:
     const arrayTypesInJavaScipt = 
@@ -309,8 +333,7 @@ https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics
 
 .
 .
-- level 6: primitive, Arrays, Objects & Reference Types
-.
+- level 06: primitive, Arrays, Objects & Reference Types
 
 -- object and array are also called reference type 
 
@@ -354,8 +377,7 @@ https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics
 
 .
 .
-- level 7: primitive -vs- Reference Types
-.
+- level 07: primitive -vs- Reference Types
 
 - javaScript is dynamic type language -and not- strong type language
 
@@ -409,8 +431,8 @@ https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics
    
 .
 .
-- level 7: Spread & Rest Operators
-.
+- level 08: Spread & Rest Operators
+
 
 - spread Operators - 
 
@@ -464,9 +486,11 @@ https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics
 
 --- example: rest operator - send unknown argument and return an array
     <javaScript-01.09.03.rest-operators.js>
+
+
 .
-.
-- level 7: Destructuring
+- level 09: Destructuring
+
 .
 
 - 
@@ -476,11 +500,22 @@ https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics
 
 
 
+.
+.
+- level 10: third party library
+
+-- "lodash" 
+--- copy array/object with third party library "lodash" 
+--- url: https://lodash.com/
+
+
+
+
+.
 
 ---[rtfm]-----------------------------------------
 - stack
 - heap
-
 
 
 

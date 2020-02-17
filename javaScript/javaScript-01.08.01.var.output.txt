@@ -1,0 +1,71 @@
+
+$ nodejs javaScript-01.08.01.var.js <enter>
+
+name1 ==> name1
+name2 ==> name2
+name2 ==> name2
+name1 ==> new-name
+person1 ==> 
+{ name: 'jron', age: 45, food: [ 'apple', 'orange', 'pear' ] }
+
+var person2 = person1;
+person2 ==> pointer to ==> person1 
+person1 ==> 
+{ name: 'jron', age: 45, food: [ 'apple', 'orange', 'pear' ] }
+
+person1.name = 'yifat';
+person1 ==> person1.name ==> yifat
+
+person1 ==> 
+{ name: 'yifat', age: 45, food: [ 'apple', 'orange', 'pear' ] }
+
+person2 ==> 
+{ name: 'yifat', age: 45, food: [ 'apple', 'orange', 'pear' ] }
+
+
+person3 (new object) ==> 
+{ name: 'shalom', age: 37 }
+
+var person4 = Object.assign({},person3);
+person4 (new object) copied from person3 object ==> 
+person4 ==> 
+{ name: 'shalom', age: 37 }
+
+ var person5 = Object.assign(person1,person5);
+person5 copied from person1
+person5 ==> 
+{ name: 'yifat', age: 45, food: [ 'apple', 'orange', 'pear' ] }
+
+create a new array and copy all person1.food array into myFood array.
+var myFood = person1.food.slice();
+
+add 'lemon' to the 'person1' object/array 
+person1.food.push("lemon")
+
+person1 ==> 
+{
+  name: 'yifat',
+  age: 45,
+  food: [ 'apple', 'orange', 'pear', 'lemon' ]
+}
+
+person2 ==> 
+{
+  name: 'yifat',
+  age: 45,
+  food: [ 'apple', 'orange', 'pear', 'lemon' ]
+}
+
+myFood array data copied from person1.food
+[ 'apple', 'orange', 'pear' ]
+
+add 'melon' to the 'myFood' object/array 
+myFood.push('melon'); 
+[ 'apple', 'orange', 'pear', 'melon' ]
+
+person1 ==> 
+{
+  name: 'yifat',
+  age: 45,
+  food: [ 'apple', 'orange', 'pear', 'lemon' ]
+}

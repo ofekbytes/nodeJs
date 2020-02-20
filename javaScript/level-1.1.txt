@@ -79,28 +79,46 @@ Java Script -
 
     //global scope
     var fName = 'Jron'; //string
-    var age = 45;  //number
+    var age = 46;  //number
     var haveBusTicket = true; //boolean
+
 
     // function call with argument
     console.log(fnPrintUserInformation(fName, age, haveBusTicket));
 
     // function with argument and return value
     function fnPrintUserInformation(name, age, busTicket) {
-        //local scope
-        return "Name is " + name + ", Age is " + age + ", busTickets" + busTicket;
+        return "Name: " + name 
+                + ", Age: " + age 
+                + ", busTickets: " + busTicket;
     }
 
--- var    --> is a keyword that create a variable (outdate syntax)
--- let    --> is a keyword that create a variable (scope of the "let" is defferent fron "var" variable)
--- const  --> is a keyword that create a variable that assigned once at declaration time 
+--- example: function with argument
+    <js-03.01.function.js>
+
+
+-- var --> is a keyword that create a variable (outdate syntax)
+--- example: variable with "var"
+    <js-02.01.variable.var.js>
+
+-- let  --> is a keyword that create a variable (scope of the "let" is defferent fron "var" variable)
+--- example: variable with "let"
+    <js-02.02.variable.let.js>
+
+-- const --> is a keyword that create a variable that assigned once at declaration time 
               and never changed (can't be assigned again)
+--- example: variable with "const"
+    <js-02.03.variable.const.js>
 
 .
 .
 - level 03: function
 
--- function with argument
+.
+.
+- function with argument
+
+-- function with argument - sending data to the function
 
 --- example: function with argument
 
@@ -110,8 +128,16 @@ Java Script -
     }
 
 --- example: function with argument
-    <javaScript-01.04.01.function-anonymous.js>
+    <js-03.01.function.js>
 
+.
+.
+- function inside function
+
+-- 
+
+--- example: 
+    <js-03.02.function-inside-function.js>
 
 
 -- function - anonymous function

@@ -98,17 +98,74 @@ Java Script -
 
 
 -- var --> is a keyword that create a variable (outdate syntax)
+           var variable use lexical scope.
 --- example: variable with "var"
-    <js-02.01.variable.var.js>
+    <js-02.01.01.variable.var.js>
+    <js-02.01.01.variable.var.output.txt>
 
--- let  --> is a keyword that create a variable (scope of the "let" is defferent fron "var" variable)
+    <js-02.01.02.variable.var.js>
+    <js-02.01.02.variable.var.output.txt>
+
+-- let  --> is a keyword that create a variable. 
+            scope of the "let" is defferent fron "var" scope variable.
+            let variable use block scope { .. } (for(), if(), function(){}).
+            let variable never used as global variable (insdie 'window' object)
+
 --- example: variable with "let"
-    <js-02.02.variable.let.js>
+    <js-02.02.01.variable.let.js>
+    <js-02.02.01.variable.let.output.txt>
 
 -- const --> is a keyword that create a variable that assigned once at declaration time 
               and never changed (can't be assigned again)
 --- example: variable with "const"
-    <js-02.03.variable.const.js>
+    <js-02.03.01.variable.const.js>
+    <js-02.03.01.variable.const.output.txt>
+
+-- const -->  with object -->
+   we can't cange the value of the constant, but we can change it properties value. 
+   const to object is like a pointer/reference type to an object (assigned pointer once)
+
+--- example: 
+   <js-02.03.02.variable.const.js>
+   <js-02.03.02.variable.const.output.txt>
+
+
+--- example: 
+//
+// create constant object with property
+const data = {name: 'name1'};
+console.log('name :: ' + data.name);
+
+//
+// change the property value
+data.name = 'new-name';
+console.log('name :: ' + data.name);
+
+//
+// add a new property with a value
+data.age = 22;
+console.log('age :: ' + data.age);
+
+//
+// can't assign new value to constant variable 'data'
+data = 'error message';
+    // output: 
+    // data = 'error message';
+    // ^
+    //
+    //TypeError: Assignment to constant variable.
+    //    at Object.<anonymous> (/home/yaron/git-ofekbytes/nodeJs/javaScript/js-02.03.02.variable.const.js:12:6)
+    //    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    //    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    //    at Module.load (internal/modules/cjs/loader.js:811:32)
+    //    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+    //    at Function.Module.runMain (internal/modules/cjs/loader.js:1043:10)
+    //    at internal/main/run_main_module.js:17:11
+
+--rtfm-- 
+- "hoisting"
+- "closures"
+
 
 .
 .
@@ -130,6 +187,31 @@ Java Script -
 --- example: function with argument
     <js-03.01.function.js>
 
+//TODO//
+.
+.
+- function block scope --> 
+
+.
+.
+- function lexical scope -->
+
+.
+.
+- block scope vs lexical scope inside function--> 
+
+.
+.
+- closure -->
+
+--rtfm --> block scope / lexical scope -- 
+
+https://spin.atomicobject.com/2014/10/20/javascript-scope-closures/
+
+https://dev.to/sandy8111112004/javascript-introduction-to-scope-function-scope-block-scope-d11
+
+///////////////////////////////////////////////
+
 .
 .
 - function inside function
@@ -139,7 +221,8 @@ Java Script -
 --- example: 
     <js-03.02.function-inside-function.js>
 
-
+.
+.
 -- function - anonymous function
 
 --- example: anonymous function set from variable const "summarizeUser"

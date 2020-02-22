@@ -14,3 +14,5 @@ function fnPrintUserInformation(name, age, busTicket) {
     //local scope
     return "Name is " + name + ", Age is " + age + ", busTickets" + busTicket;
 }
+
+///output///

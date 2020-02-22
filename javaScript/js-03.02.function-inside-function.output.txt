@@ -1,0 +1,6 @@
+
+fname ::shalom
+age :: 37
+fage :: 11
+fage = age :: 11
+name :: assign internal function variable <name> with this value

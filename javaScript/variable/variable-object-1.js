@@ -1,9 +1,9 @@
 const contact = {
     name:'jron',
-    id:123456789, //9
+    id:123456789,
     welcome() {
       console.log('welcome ' + this.name + ' have a nice day');
-    }
+    },
   
   }
   

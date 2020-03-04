@@ -220,11 +220,12 @@ https://dev.to/sandy8111112004/javascript-introduction-to-scope-function-scope-b
 
 --- example: 
     <js-03.02.function-inside-function.js>
+    <js-03.02.function-inside-function.output.txt>
 
 .
 .
 -- function - anonymous function
-
+functiondsafasdfadfssdfafdsacxzvxczfdasfadsvcxcvxzadfsafdsvxczvzxcadfs
 --- example: anonymous function set from variable const "summarizeUser"
 
     const fnPrintUserInformation = function (name, age, busTicket) 
@@ -234,8 +235,8 @@ https://dev.to/sandy8111112004/javascript-introduction-to-scope-function-scope-b
 
 
 --- example: anonymous function set from variable const "summarizeUser"
-   <javaScript-01.04.02.function-anonymous.js>
-
+   <js-03.03.function-anonymous.js>
+   <js-03.03.function-anonymous.output.js>
 
 
 -- function - 
@@ -254,7 +255,8 @@ https://dev.to/sandy8111112004/javascript-introduction-to-scope-function-scope-b
 
 
 --- example:  anonymous function with Arrow Functions "=>"
-    <javaScript-01.04.03.function-Arrow.js>
+    <js-03.04.function-Arrow.js>
+    <js-03.04.function-Arrow.output.js>
 
 
 
@@ -263,8 +265,9 @@ https://dev.to/sandy8111112004/javascript-introduction-to-scope-function-scope-b
 --- example: Arrow Functions
 
 --- example: Arrow Functions
-    <javaScript-01.04.04.functions-Arrow-short.js>
-
+    <js-03.05.functions-Arrow-short.js>
+    <js-03.05.functions-Arrow-short.output.js>
+    
 .
 .
 - level 04: objects-properties-methods
